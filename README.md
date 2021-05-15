@@ -1,5 +1,5 @@
-# Docker-Containerization-using-Spring-Boot
-In this project, I have created a hello-world application in Spring Boot and deployed it to Docker Hub using Docker Desktop.
+# Docker-Containerization-using-Dockerfile
+In this project, I have created a hello-world application in Spring Boot and deployed it to Docker Hub using Docker Desktop using Dockerfile.
 
 # How to run :
 
@@ -11,11 +11,11 @@ In this project, I have created a hello-world application in Spring Boot and dep
 
 - Goto http://localhost:8080 and you can see the output there.
 
-- Now, Run maven build image for the project.
+- Now, Run maven build image for the project using the build script.
 
 - Open Docker Desktop and you can see the current project in the local repo.
 
-- Run the image from Docker Desktop or command line using : docker container run -d -p 8080:8080 <docker-id>/<image-name>:<tag>
+- Run the image from Docker Desktop or command line using run script : docker container run -d -p 8080:8080 <docker-id>/<image-name>:<tag>
 
 - The image will run quickly as it will be found in local repo.
 
